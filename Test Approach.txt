@@ -1,0 +1,3 @@
+Resource: https://buggy.justtestit.org 
+A short description of the test approach for this project
+---------------------------------------------------------
