@@ -1,0 +1,4 @@
+TestDescription,Login,FirstName,LastName,Password,ConfirmPassword,validData
+With Valid Data,abc@123abc.com,John,Lin,Testing@1212,Testing@1212,true
+With inValid Data(Password mismatch),abc@123abc.com,John,Lin,Testing,Testing@1212,false
+With inValid Data(Password invalid),abc@123abc.com,John,Lin,Testing,Testing,false
