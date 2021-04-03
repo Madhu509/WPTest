@@ -23,7 +23,7 @@ namespace WPTest.Tests
         }
 
         [TestCaseSource(nameof(UserRegistrationTestData), new object[] { "Registration" }), Order(1)]
-        public void UserRegistrationTest(User userDetails, String status)
+        public void UserRegistrationTest(User userDetails)
         {
             homePage.Register.Click();
             RegistrationPage registration = new RegistrationPage(Driver);

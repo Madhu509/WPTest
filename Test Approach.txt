@@ -1,3 +1,28 @@
 Resource: https://buggy.justtestit.org 
 A short description of the test approach for this project
 ---------------------------------------------------------
+
+Automation Testing :
+ 
+Data Driven tests are added for (Registration, Login, Logout, Popular make, model and overall rating etc) 
+
+Automation framework has Behavior drven capability to Add gherkin. 
+
+Functional Testing : 
+
+Main functinality Tested :
+1) Login 
+2) Logout 
+3) Profile 
+
+Features Tested : 
+1) Popular Make 
+2) Popular Model 
+3) Overall Rating 
+
+
+Security Testing : 
+- Check data encryption 
+
+Non Function Testing : NA
+
