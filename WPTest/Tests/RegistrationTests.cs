@@ -56,7 +56,7 @@ namespace WPTest.Tests
             {
                 while (csv.ReadNextRecord())
                 {
-                    if ((type.Equals("Login") && csv["validData"].Equals("true")) || type.Equals("Registration"))
+                    if (csv["validData"].Equals("true"))
                         yield return new TestCaseData(new User()
                         {
                             Login = csv["Login"],
