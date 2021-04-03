@@ -39,7 +39,7 @@ namespace WPTest.Pages
 
         public void ConfirmPassword(string value) => Driver.FindElement(_confirmPassword).SendText(value);
 
-        public string GetRegistrationMessage => Driver.FindElement(_alertMessage).Text;
+        public string GetRegistrationMessage => Driver.FindByWithWait(_alertMessage).Text;
 
         public void EnterUserRegistrationDetails(User user)
         {
